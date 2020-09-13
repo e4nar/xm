@@ -25,7 +25,7 @@ return [
 		'api_source_url' => 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-historical-data',
 		
 		// Api service key for requests
-		'api_service_key' => 'cb2549df16mshc067cd8ad961bffp12356fjsnaf1ecd8d6afb',
+		'api_service_key' => '',
 	],
 	
 ];
