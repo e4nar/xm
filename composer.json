@@ -18,9 +18,9 @@
 	
     "autoload": {
         "files": [
-            "Utilities/DatahubNasdaq.php",
-            "Utilities/RapidStock.php",
-            "Helpers/functions.php"
+            "src/Utilities/DatahubNasdaq.php",
+            "src/Utilities/RapidStock.php",
+            "src/Helpers/functions.php"
         ],
         "psr-4": {
             "E4nar\\Xm\\": "src"
