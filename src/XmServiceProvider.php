@@ -2,6 +2,7 @@
 
 namespace E4nar\Xm;
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
 class XmServiceProvider extends ServiceProvider {
