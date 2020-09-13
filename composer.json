@@ -1,0 +1,41 @@
+{
+    "name": "e4nar/xm",
+    "type": "library",
+    "description": "Package implementing test",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Elias Fournaridis",
+            "email": "elias@gearsoft.gr"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "E4nar\\Xm\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "E4nar\\Xm\\Tests\\": "tests"
+        }
+    },
+
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.5"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "E4nar\\Xm\\XmServiceProvider"
+            ]
+        }
+    }
+}
