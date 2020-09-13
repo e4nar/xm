@@ -13,7 +13,9 @@
     "require": {
         "php": "^7.0"
     },
-
+	
+	"minimum-stability": "dev",
+	
     "autoload": {
         "files": [
             "Utilities/DatahubNasdaq.php",
