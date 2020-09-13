@@ -12,10 +12,10 @@ class XmServiceProvider extends ServiceProvider {
 		$this->mergeConfigFrom(__DIR__.'/../config/config.php', 'xmconfig');
 		
 		// whenever a class needs an object that implements CompanyInfoApi, a DatahubNasdaq object will be served
-		$this->app->bind('App\Contracts\Nasdaq\CompanyInfoApi', 'App\Utilities\DatahubNasdaq');
+		$this->app->bind('E4nar\Xm\Nasdaq\CompanyInfoApi', 'E4nar\Xm\Utilities\DatahubNasdaq');
 		
 		// whenever a class needs an object that implements StockInfoApi, a RapidStock object will be served
-		$this->app->bind('App\Contracts\Nasdaq\StockInfoApi', 'App\Utilities\RapidStock');
+		$this->app->bind('E4nar\Xm\Contracts\Nasdaq\StockInfoApi', 'E4nar\Xm\Utilities\RapidStock');
 		
 	}
 	
